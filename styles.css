@@ -185,6 +185,47 @@ p {
   }
 }
 
+/* More Projects Section */
+#more-projects {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 1.5rem;
+}
+
+#more-projects:hover {
+  transform: translateY(-7px);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.github-link a {
+  display: inline-flex;
+  align-items: center;
+  background: #64e764;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.github-link a:hover {
+  background: #00e686;
+  transform: scale(1.05);
+}
+
+.github-link img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+
 /* Skills Section */
 #skills {
   text-align: center;
@@ -201,9 +242,15 @@ p {
   background: #fff;
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
   width: 45%;
   text-align: left;
+  border: 0.01px black;
+  transition: transform 0.3s ease;
+}
+
+.skill-category:hover{
+  transform: translateY(-7px);
 }
 
 .skill-category h3 {
