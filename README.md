@@ -1,6 +1,5 @@
 # Portfolio
 
-The website is published on https://balkaran-singh-khosa.onrender.com
+Simple web app project that displays about my coding portfolio and it is deployed on github pages.  
 
-
-GitHub is being checked
+The website is published [here](https://balkasingh.github.io/Portfolio/)
