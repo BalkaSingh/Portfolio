@@ -3,113 +3,205 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Balkaran Singh Khosa | Portfolio</title>
+  <meta name="description" content="Portfolio of Balkaran Singh Khosa, a software engineering student focused on full-stack web development, software maintenance, CI/CD and AI-powered applications.">
+  <title>Balkaran Singh Khosa | Software Engineering Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <img src="img/portfolio-pic.jpg" alt="Balkaran Singh Khosa Profile Pic" class="profile-pic">
-      <h1>Balkaran Singh Khosa</h1>
-      <p>Computer science student keen on developping full-stack applications.</p>
+  <header class="hero" id="home">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="logo" href="#home">Balkaran Singh Khosa</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content container">
+      <div class="hero-text">
+        <p class="eyebrow">Software Engineering Student · Full-Stack Developer</p>
+        <h1>Building practical web apps with clean structure and real user value.</h1>
+        <p class="hero-summary">
+          I am Balkaran Singh Khosa, a software engineering student at ÉTS in Montreal focused on programming,
+          full-stack development, software maintenance, CI/CD, modern web applications and AI-powered tools.
+          I enjoy building useful applications with technologies such as React, Angular, Node.js, Firebase,
+          MongoDB, SQL and other tools depending on the project.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/balkaran-singh-khosa/" rel="noopener" target="_blank">LinkedIn</a>
+          <a class="btn secondary" href="https://github.com/BalkaSingh" rel="noopener" target="_blank">GitHub</a>
+        </div>
+      </div>
+      <img src="img/portfolio-pic.jpg" alt="Balkaran Singh Khosa" class="profile-pic">
     </div>
   </header>
-  <nav>
-    <ul>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+
   <main>
-    <section id="about" class="container">
+    <section id="about" class="container section-card">
       <h2>About Me</h2>
-      <p>I am a computer science enthusiast from Montreal, who loves developing gaming, mobile, and web applications. I am fluent in English, French and Panjabi.</p>
-      <p>My hobbies include playing sports, video games, and spending time with friends & family. I played soccer throughout my teen years and enjoy going to the gym.</p>
+      <p>
+        I am a motivated developer who likes turning ideas into working applications. My strongest interests are
+        programming, full-stack web development, AI-powered web tools, backend APIs, authentication,
+        role-based access control, databases and project maintainability.
+      </p>
+      <p>
+        I am fluent in English, French and Panjabi. Outside of coding, I enjoy soccer, fitness, video games and
+        spending time with friends and family.
+      </p>
     </section>
-  
+
+    <section id="experience" class="container">
+      <h2>Experience</h2>
+      <div class="experience-grid">
+        <article class="experience-card">
+          <div class="experience-header">
+            <div>
+              <h3>Alloprof</h3>
+              <p class="role">Software / Web Development Internship</p>
+            </div>
+            <span class="tag">Internship</span>
+          </div>
+          <p>
+            Worked in a professional development environment and gained experience with real software projects,
+            team collaboration, web application structure, maintenance and practical development workflows.
+          </p>
+          <ul>
+            <li>Built experience in web development and software maintenance.</li>
+            <li>Practiced teamwork, communication and project organization.</li>
+            <li>Improved understanding of how production applications are planned, updated and maintained.</li>
+          </ul>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-header">
+            <div>
+              <h3>Tutor / Academic Support</h3>
+              <p class="role">Programming, Web Development and Technical Help</p>
+            </div>
+            <span class="tag">Tutoring</span>
+          </div>
+          <p>
+            Helped students understand programming, problem solving, debugging and web development concepts in a
+            clear and simple way, while adapting explanations to their level.
+          </p>
+          <ul>
+            <li>Explained technical concepts using simple examples and step-by-step reasoning.</li>
+            <li>Supported learning in programming, web development and software tools.</li>
+            <li>Strengthened communication, patience and leadership skills.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
     <section id="skills" class="container">
       <h2>Skills</h2>
-      <div class="skills-list">
-        <div class="skill-category">
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3>Programming Skills</h3>
+          <ul>
+            <li>JavaScript / TypeScript</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>Python</li>
+            <li>SQL</li>
+          </ul>
+        </article>
+
+        <article class="skill-card">
           <h3>Technical Skills</h3>
           <ul>
-            <li>Git, GitHub, CI/CD</li>
-            <li>Full-Stack Web Development</li>
-            <li>Java, C#, Python</li>
-            <li>React, Node.js, MongoDB</li>
-            <li>SQL, Firebase, REST APIs</li>
+            <li>React, Angular, Node.js</li>
+            <li>Firebase Auth, custom claims, Firestore</li>
+            <li>Express, REST APIs, MongoDB</li>
+            <li>Git, GitHub, GitLab CI/CD</li>
+            <li>VS Code, Microsoft Excel</li>
           </ul>
-        </div>
-        <div class="skill-category">
+        </article>
+
+        <article class="skill-card">
           <h3>General Skills</h3>
           <ul>
-            <li>Problem-Solving</li>
-            <li>Team Collaboration</li>
-            <li>Project Management</li>
+            <li>Problem solving</li>
+            <li>Team collaboration</li>
             <li>Communication</li>
-            <li>Leadership</li>
+            <li>Project organization</li>
+            <li>Fast learning</li>
           </ul>
-        </div>
+        </article>
       </div>
     </section>
-  
+
     <section id="projects" class="container">
-      <h2>My Projects</h2>
+      <h2>Projects</h2>
       <div class="project-list">
-        <div class="project-item">
-          <img src="img/MontrealTheft_UI.png" alt="Montreal Vehicle Thefts">
-          <h3>Montreal Vehicle Thefts 2021</h3>
-          <p>A full-stack web application analyzing vehicle theft patterns in Montreal using demographic data science.</p>
-          <p><strong>Skills:</strong> React.js, Node.js, Express, MongoDB</p>
-          <div class="project-buttons">
-            <a href="https://github.com/BalkaSingh/Montreal-Vehicle-Thefts-2021" rel="noopener" target="_blank">
-              <img src="img/github-icon.webp" alt="GitHub"> GitHub
-            </a>
+        <article class="project-item">
+          <img src="img/MontrealTheft_UI.png" alt="Montreal Vehicle Thefts project interface">
+          <div class="project-content">
+            <h3>Montreal Vehicle Thefts 2021</h3>
+            <p>
+              A full-stack data visualization web app that displays Montreal vehicle theft data by region and connects
+              crime information with sociodemographic context through an interactive map.
+            </p>
+            <p><strong>Stack:</strong> React, Node.js, Express, MongoDB, Leaflet</p>
+            <div class="project-buttons">
+              <a href="https://github.com/BalkaSingh/Montreal-Vehicle-Thefts-2021" rel="noopener" target="_blank">
+                <img src="img/github-icon.webp" alt=""> GitHub
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="project-item">
-          <img src="img/CourseManagerUI.png" alt="Course Manager">
-          <h3>Course Manager Web App</h3>
-          <p>A web app for managing courses, allowing users to add, edit, and organize course details efficiently.</p>
-          <p><strong>Skills:</strong> Python, Flask, Jinja, SQL</p>
-          <div class="project-buttons">
-            <a href="https://github.com/BalkaSingh/Course-Manager-Web-App" rel="noopener" target="_blank">
-              <img src="img/github-icon.webp" alt="GitHub"> GitHub
-            </a>
+        </article>
+
+        <article class="project-item">
+          <img src="img/CourseManagerUI.png" alt="Course Manager Web App interface">
+          <div class="project-content">
+            <h3>Course Manager Web App</h3>
+            <p>
+              A web application for managing users, courses, competencies and administrator actions such as changing
+              groups, blocking users and deleting accounts.
+            </p>
+            <p><strong>Stack:</strong> Python, Flask, Jinja, SQL</p>
+            <div class="project-buttons">
+              <a href="https://github.com/BalkaSingh/Course-Manager-Web-App" rel="noopener" target="_blank">
+                <img src="img/github-icon.webp" alt=""> GitHub
+              </a>
+            </div>
           </div>
-        </div>
+        </article>
       </div>
-      <section id="more-projects" class="container">
-        <h2>More Projects</h2>
-        <p>Explore more of my projects on GitHub.</p>
-        <div class="github-link">
-          <a href="https://github.com/BalkaSingh?tab=repositories" rel="noopener" target="_blank">
-            <img src="img/github-icon.webp" alt="GitHub"> View on GitHub
-          </a>
-        </div>
-      </section>
-    </section>    
-  
-    <section id="contact" class="container">
+
+      <div class="more-projects section-card">
+        <h3>More Projects</h3>
+        <p>More coding projects are available on my GitHub profile.</p>
+        <a class="btn primary" href="https://github.com/BalkaSingh?tab=repositories" rel="noopener" target="_blank">View GitHub Repositories</a>
+      </div>
+    </section>
+
+    <section id="contact" class="container section-card">
       <h2>Contact</h2>
-      <p>Feel free to reach out to me</p>
+      <p>Open to software engineering, web development, AI, programming and DevOps internship opportunities.</p>
       <div class="contact-links">
-        <a href="mailto:Balkaran3@outlook.com">
+        <a href="mailto:khosabalkaransingh3@gmail.com" aria-label="Email Balkaran Singh Khosa">
           <img alt="Email" src="img/email-icon.jpg">
+          <span>Email</span>
         </a>
-        <a href="https://www.linkedin.com/in/balkaran-singh-khosa-0463bb23a/" rel="noopener" target="_blank">
+        <a href="https://www.linkedin.com/in/balkaran-singh-khosa/" rel="noopener" target="_blank" aria-label="LinkedIn profile">
           <img alt="LinkedIn" src="img/linkedin-icon.png">
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/BalkaSingh" rel="noopener" target="_blank" aria-label="GitHub profile">
+          <img alt="GitHub" src="img/github-icon.webp">
+          <span>GitHub</span>
         </a>
       </div>
     </section>
   </main>
-  
+
   <footer>
-    <div class="container">
-      <p>&copy; 2025 Balkaran Singh Khosa. All rights reserved.</p>
-    </div>
+    <p>&copy; 2026 Balkaran Singh Khosa. All rights reserved.</p>
   </footer>
 </body>
 </html>
